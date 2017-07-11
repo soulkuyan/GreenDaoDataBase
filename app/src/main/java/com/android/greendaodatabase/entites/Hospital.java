@@ -23,6 +23,7 @@ public class Hospital {
     private Long idHospital;
     private String hospitalSn;
     private String gpsInfo;
+    private String testTestjjjjjj;
     private String hospitalName;
     @ToMany(joinProperties = {
             @JoinProperty(name = "hospitalSn", referencedName = "hospitalSn")
